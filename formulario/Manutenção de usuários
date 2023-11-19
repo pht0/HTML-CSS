@@ -34,9 +34,9 @@
 
             <div class="campo">
                 <label for="Tipo">Tipo</label>
-                <input type="radio" name="Tecnico" checked> Técnico
-                <input type="radio" name="professor"> Professor
-                <input type="radio" name="aluno"> Aluno
+                <input type="radio" name="tipo" checked> Técnico
+                <input type="radio" name="tipo"> Professor
+                <input type="radio" name="tipo"> Aluno
             </div>
 
             <div class="campo">
