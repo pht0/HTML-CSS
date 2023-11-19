@@ -46,8 +46,8 @@
 
             <div class="campo">
                 <label for="Perfil">Perfil</label>
-                <input type="radio"> Convidado
-                <input type="radio"> Administrador
+                <input type="radio" name="perfil"> Convidado
+                <input type="radio" name="perfil"> Administrador
             </div>
 
             <div class="campo">
