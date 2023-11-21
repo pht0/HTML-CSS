@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cabeçalho">
+        <h1>Fale conosco</h1>
+        <p id="paragrafo">Estamos disponíveis 24h.</p>
+    </div>
+
+    <fieldset>
+        <div class="campo">
+            <h2>Nome<span>*</span></h2>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+        </div>
+    
+        <div class="campo">
+            <h2><label for="email">E-mail<span>*</span></label><h2>
+                <input type="text" name="email" id="email" placeholder="exemplo@exemplo.com" required>
+        </div>
+   
+        <div>
+            <h2><label for="mensagem">Mensagem<span>*</span></label></h2>
+            <textarea name="" id="" cols="30" rows="10" required placeholder="digite aqui..."></textarea>
+        </div>
+        
+        
+    </fieldset>
+    <button type="button" id="botao">Enviar</button>
+</body>
+</html>
