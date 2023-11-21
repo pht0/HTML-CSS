@@ -1,0 +1,29 @@
+fieldset{
+    border: 0;
+    margin-top: 1em;
+}
+
+*{
+    margin: 0;
+}
+
+span{
+    color:red;
+}
+
+
+.campo{
+    margin-bottom: 1em;
+}
+#botao{
+margin: 0;
+margin-left: 5%;
+background-color: #8ac46a;
+border: 0;
+border-radius: 5px;
+}
+
+#paragrafo{
+    
+    color:#575757;
+}
