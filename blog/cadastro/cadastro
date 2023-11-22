@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="cabeçalho">
-        <h1>Fale conosco</h1>
-        <p id="paragrafo">Estamos disponíveis 24h.</p>
-    </div>
-
-    <fieldset>
-        <div class="campo">
-            <h2>Nome<span>*</span></h2>
-            <input type="text" name="nome" id="nome" placeholder="Nome">
-            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
-        </div>
-    
-        <div class="campo">
-            <h2><label for="email">E-mail<span>*</span></label><h2>
-                <input type="text" name="email" id="email" placeholder="exemplo@exemplo.com" required>
-        </div>
-   
+    <form>
         <div>
-            <h2><label for="mensagem">Mensagem<span>*</span></label></h2>
-            <textarea name="" id="" cols="30" rows="10" required placeholder="digite aqui..."></textarea>
+            <h1>Fale Conosco</h1>
+            <p>Estamos disponíveis 24h.</p>
         </div>
-        
-        
-    </fieldset>
-    <button type="button" id="botao">Enviar</button>
+        <br><br><br>
+
+        <div>
+            <label><strong>Nome</strong><span> *</span></label><br>
+            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="sobrenome">
+        </div>
+        <br><br>
+
+        <div>
+            <label><strong>Email</strong><span> *</span></label><br>
+            <input type="text" name="email" id="email">
+        </div>
+        <br><br>
+
+        <div>
+            <label><strong>Mensagem</strong><span> *</span></label><br>
+            <textarea name="area" id="area" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
